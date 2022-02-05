@@ -1,17 +1,19 @@
+/* ++++++ начало портфолио+++++ */
 /* маркер */
 .marker {
   list-style: none;
-  text-decoration: none;
 }
+
 /* подчеркивание */
-/* .underlining {
-  text-decoration: none; */
+
+.underlining {
+  text-decoration: none;
 }
 
 /* хедер  */
 .header {
-  background: #ffffff;
 }
+
 /* навигация */
 .navigation {
 }
@@ -23,6 +25,25 @@
   letter-spacing: 0.02em;
   color: #212121;
 }
+/* стиль логотипа */
+.navigation-stil-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+/* навигационные кнопки */
+.click-transition {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
 /* псевдокласс */
 
 /* :hover
@@ -30,8 +51,26 @@
     :active
     :visited */
 
-.navigation-list:hover,
+.navigation-list :hover,
 :focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+/* картинки с описанием */
+.paragraph-pictures {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  color: #212121;
+}
+
+/* текст в картинках портфолио*/
+.tech-portfolio-pictures {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
